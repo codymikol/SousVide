@@ -1,0 +1,12 @@
+{
+  "name": "SousVide",
+  "version": "1.0.0",
+  "description": "Sous Vide project.",
+  "main": "index.js",
+  "repository": "https://github.com/rcleland/sousvide.git",
+  "author": "Ryan Cleland",
+  "license": "MIT",
+  "dependencies": {
+    "react-dom": "^16.2.0"
+  }
+}
