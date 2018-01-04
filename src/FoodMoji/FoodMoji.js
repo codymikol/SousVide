@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 
+import './FoodMoji.css'
+
 class FoodMoji extends Component {
 
     constructor(props) {
@@ -15,9 +17,8 @@ class FoodMoji extends Component {
 
     render() {
         return (
-            <div>
-                <p className="food-moji" style={{WebkitTransform: `translateX(${this.xPos}px) translateY(${this.yPos}px) rotateZ(${this.rotDeg}deg)`}}>{this.props.food}</p>
-            </div>
+            <p className="food-moji"
+               style={{WebkitTransform: `translateX(${this.xPos}px) translateY(${this.yPos}px) rotateZ(${this.rotDeg}deg)`}}>{this.props.food}</p>
         );
     }
 }
